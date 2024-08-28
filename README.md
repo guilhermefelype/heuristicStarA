@@ -155,7 +155,7 @@ Executa o algoritmo A* para encontrar o caminho mais curto entre dois nós.
 ## Uso
 
 1. **Compilação**:
-   Compile o programa usando um compilador C. O comando a seguir compila o programa e cria o executável `pathfinding`:
+   Compile o programa usando um compilador C. O comando a seguir compila o programa e cria o executável `o a_star`:
    ```bash
    gcc -o a_star a_star.c -lm
    ```
@@ -184,7 +184,6 @@ Executa o algoritmo A* para encontrar o caminho mais curto entre dois nós.
 
 ## Notas
 
-- **Aleatoriedade**: Cada
-
- execução do programa gera um grafo diferente com coordenadas e custos aleatórios. Isso permite testar o algoritmo em diferentes cenários.
+- **Aleatoriedade**: Cada execução do programa gera um grafo diferente com coordenadas e custos aleatórios. Isso permite testar o algoritmo em diferentes cenários.
+  
 - **Limitações**: O número de nós e arestas é definido estaticamente no código. Para testar diferentes tamanhos de grafos, ajuste os valores de `numNodes` e `numEdges`.
